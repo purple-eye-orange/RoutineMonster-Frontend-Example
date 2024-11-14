@@ -8,7 +8,7 @@ const GoogleLoginButton = () => {
   const handleSuccess = async (res) => {
     try {
       const response = await axios.post(
-        "http://routinemonsterapi.seongjinemong.app/api/users/signin",
+        "https://routinemonsterapi.seongjinemong.app/api/users/signin",
         {
           credential: res.credential,
         },
