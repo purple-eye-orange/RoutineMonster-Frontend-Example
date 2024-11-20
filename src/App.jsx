@@ -9,6 +9,7 @@ import GetDateRoutineButton from "./components/GetDateRoutineButton";
 import DateRoutineCheckButton from "./components/DateRoutineCheckButton";
 import UpdateCommentButton from "./components/UpdateComment";
 import GetCalendarButton from "./components/GetCalendarButton";
+import GetGoogleDataButton from "./components/GetGoogleDataButton";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <DateRoutineCheckButton />
       <UpdateCommentButton />
       <GetCalendarButton />
+      <GetGoogleDataButton />
     </>
   );
 }

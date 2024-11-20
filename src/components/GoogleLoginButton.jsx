@@ -11,6 +11,7 @@ const GoogleLoginButton = () => {
         "http://localhost:3000/api/users/signin",
         {
           credential: res.credential,
+          z,
         },
         {
           headers: {
