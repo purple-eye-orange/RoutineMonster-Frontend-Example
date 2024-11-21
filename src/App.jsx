@@ -2,7 +2,7 @@ import GoogleLoginButton from "./components/GoogleLoginButton";
 import "./App.css";
 import LogoutButton from "./components/LogoutButton";
 import WriteRoutineButton from "./components/WriteRoutineButton";
-import GetRoutine from "./components/GetRoutine";
+import GetRoutineButton from "./components/GetRoutineButton";
 import DeleteRoutineButton from "./components/DeleteRoutineButton";
 import CheckSessionButton from "./components/CheckSessionButton";
 import GetDateRoutineButton from "./components/GetDateRoutineButton";
@@ -18,7 +18,7 @@ function App() {
       <GoogleLoginButton />
       <LogoutButton />
       <WriteRoutineButton />
-      <GetRoutine />
+      <GetRoutineButton />
       <DeleteRoutineButton />
       <CheckSessionButton />
       <GetDateRoutineButton />

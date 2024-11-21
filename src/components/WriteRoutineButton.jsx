@@ -6,8 +6,8 @@ const WriteRoutineButton = () => {
     try {
       // Request Body 데이터 정의
       const requestBody = {
-        title: "read nudge",
-        category: "reading",
+        title: "운동",
+        category: "exercise",
         startDate: "2024-10-10",
         endDate: "2024-10-12",
         times: 10,

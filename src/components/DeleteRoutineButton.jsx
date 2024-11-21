@@ -5,7 +5,7 @@ const DeleteRoutineButton = () => {
   const handleDeleteRoutine = async () => {
     try {
       const requestBody = {
-        routineId: 1, // 삭제할 루틴의 ID
+        routineId: 7, // 삭제할 루틴의 ID
       };
 
       const response = await axios.delete(
